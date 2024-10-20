@@ -73,7 +73,11 @@ TRAINER_EVAL_CONFIG = EvalConfig(
         {
             "model_name": "tiny-stories-1M",
             "dataset_path": "roneneldan/TinyStories",
+<<<<<<< HEAD
             "hook_name": "blocks.1.attn.hook_q",
+=======
+            "hook_name": "blocks..attn.hook_q",
+>>>>>>> c214a44 (adds test to increase coverage)
             "hook_layer": 1,
             "d_in": 4,
             "hook_head_index": 2,
